@@ -1,0 +1,17 @@
+I:\GITHUB\COMP2068-Assignment03\COMP2068-Assignment03\bin\CreateJS BoilerPlate.dll.config
+I:\GITHUB\COMP2068-Assignment03\COMP2068-Assignment03\bin\CreateJS BoilerPlate.dll
+I:\GITHUB\COMP2068-Assignment03\COMP2068-Assignment03\bin\CreateJS BoilerPlate.pdb
+I:\GITHUB\COMP2068-Assignment03\COMP2068-Assignment03\obj\Debug\COMP2068-Assignment03.csprojResolveAssemblyReference.cache
+I:\GITHUB\COMP2068-Assignment03\COMP2068-Assignment03\obj\Debug\CreateJS BoilerPlate.dll
+I:\GITHUB\COMP2068-Assignment03\COMP2068-Assignment03\obj\Debug\CreateJS BoilerPlate.pdb
+I:\GITHUB\COMP2068-Final\COMP2068-Assignment03\bin\CreateJS BoilerPlate.dll.config
+I:\GITHUB\COMP2068-Final\COMP2068-Assignment03\bin\CreateJS BoilerPlate.dll
+I:\GITHUB\COMP2068-Final\COMP2068-Assignment03\bin\CreateJS BoilerPlate.pdb
+I:\GITHUB\COMP2068-Final\COMP2068-Assignment03\obj\Debug\CreateJS BoilerPlate.dll
+I:\GITHUB\COMP2068-Final\COMP2068-Assignment03\obj\Debug\CreateJS BoilerPlate.pdb
+C:\Users\Ian Knutson\Documents\GitHub\COMP2068-Final\COMP2068-Assignment03\bin\CreateJS BoilerPlate.dll.config
+C:\Users\Ian Knutson\Documents\GitHub\COMP2068-Final\COMP2068-Assignment03\bin\CreateJS BoilerPlate.dll
+C:\Users\Ian Knutson\Documents\GitHub\COMP2068-Final\COMP2068-Assignment03\bin\CreateJS BoilerPlate.pdb
+C:\Users\Ian Knutson\Documents\GitHub\COMP2068-Final\COMP2068-Assignment03\obj\Debug\COMP2068-Assignment03.csprojResolveAssemblyReference.cache
+C:\Users\Ian Knutson\Documents\GitHub\COMP2068-Final\COMP2068-Assignment03\obj\Debug\CreateJS BoilerPlate.dll
+C:\Users\Ian Knutson\Documents\GitHub\COMP2068-Final\COMP2068-Assignment03\obj\Debug\CreateJS BoilerPlate.pdb

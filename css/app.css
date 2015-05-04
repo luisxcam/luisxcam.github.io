@@ -1,0 +1,19 @@
+﻿/*
+    Filename: app.css
+    Author: Luis Acevedo & Ian Knutson
+    Last Modified: Ian Knutson
+    Date last modified: 2014-12-07
+    Description: CSS control
+    History:
+    2014 12 07
+        Centered the screen
+*/
+#canvas {
+    border:dashed 5px black;
+    display: inline;
+}
+
+#canvas-container {
+   width: 100%;
+   text-align:center;
+}

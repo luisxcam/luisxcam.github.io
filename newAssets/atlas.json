@@ -1,0 +1,45 @@
+{
+"images": ["atlas.png"],
+"frames": [
+
+    [2, 2, 100, 100], 
+    [2, 104, 11, 11], 
+    [206, 2, 65, 65], 
+    [206, 69, 127, 25], 
+    [531, 2, 20, 20], 
+    [273, 2, 65, 65], 
+    [206, 96, 127, 25], 
+    [335, 69, 127, 25], 
+    [104, 2, 100, 100], 
+    [15, 104, 11, 11], 
+    [464, 2, 65, 65], 
+    [335, 96, 127, 25], 
+    [553, 2, 20, 20], 
+    [340, 2, 65, 65], 
+    [464, 96, 122, 25], 
+    [464, 69, 127, 25]
+],
+"animations": {
+    
+        "black_boss":[0], 
+        "black_bullet":[1], 
+        "black_enemy":[2], 
+        "black_instructions":[3], 
+        "black_powerup":[4], 
+        "black_spaceship":[5], 
+        "black_start":[6], 
+        "black_tryagain":[7], 
+        "white_boss":[8], 
+        "white_bullet":[9], 
+        "white_enemy":[10], 
+        "white_instructions":[11], 
+        "white_powerup":[12], 
+        "white_spaceship":[13], 
+        "white_start":[14], 
+        "white_tryagain":[15]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:b1c8553549b91ec596d342ff209fd8ed:45cb971ac5ab4d1ba64737b0776aaaea:cbce6b53f0f49e0bf15173c25c41f876$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

@@ -151,11 +151,11 @@ I believe this is the only thing that I actually thought was pretty amazing. So 
 ```
 Press Esc twice (Esc + Esc) or use the /rewind command to open the rewind menu. A scrollable list shows each of your prompts from the session. Select the point you want to act on, then choose an action:
 
-> Restore code and conversation: revert both code and conversation to that point
-> Restore conversation: rewind to that message while keeping current code
-> Restore code: revert file changes while keeping the conversation
-> Summarize from here: compress the conversation from this point forward into a summary, freeing context window space
-> Never mind: return to the message list without making changes
+- Restore code and conversation: revert both code and conversation to that point
+- Restore conversation: rewind to that message while keeping current code
+- Restore code: revert file changes while keeping the conversation
+- Summarize from here: compress the conversation from this point forward into a summary, freeing context window space
+- Never mind: return to the message list without making changes
 
 After restoring the conversation or summarizing, the original prompt from the selected message is restored into the input field so you can re-send or edit it.
 ```

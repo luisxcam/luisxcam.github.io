@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 2%;
+    --foreground: 220 9% 91%;
+
+    --card: 0 0% 5%;
+    --card-foreground: 220 9% 91%;
+
+    --popover: 0 0% 5%;
+    --popover-foreground: 220 9% 91%;
+
+    --primary: 142 71% 45%;
+    --primary-foreground: 0 0% 2%;
+
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 220 9% 91%;
+
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 0 84% 60%;
+    --accent-foreground: 220 9% 91%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 220 9% 91%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 142 71% 45%;
+
+    --radius: 0px;
+
+    --sidebar-background: 0 0% 3%;
+    --sidebar-foreground: 220 9% 91%;
+    --sidebar-primary: 142 71% 45%;
+    --sidebar-primary-foreground: 0 0% 2%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 220 9% 91%;
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: 142 71% 45%;
+
+    --terminal-green: 142 71% 45%;
+    --metal-red: 0 84% 60%;
+    --cold-steel: 0 0% 15%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-mono;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Scanline overlay effect */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+@keyframes typewriter-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
+
+.cursor-blink {
+  animation: typewriter-blink 1s step-end infinite;
+}
+
+.glitch-hover:hover {
+  animation: glitch 0.3s ease-in-out;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(0 0% 5%);
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(0 0% 20%);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(142 71% 45%);
+}

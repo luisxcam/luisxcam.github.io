@@ -125,9 +125,47 @@ So, I began comparing each other, and these were the results of my research. Ple
 |![Claude Code in Action Certificate](/blog/claude-code-vs-github-copilot/mynotes1.jpg)|
 |![Claude Code in Action Certificate](/blog/claude-code-vs-github-copilot/mynotes2.jpg)|
 
+Let me provide a cleaner version, with a bit more insights
+
 | Claude | Copilot |
 | --- | --- |
-| The Million Token Context Window |  |
-| Row 2, Col 1 | Row 2, Col 2 |
-| Row 3, Col 1 | Row 3, Col 2 |
+| The Million Token Context Window | Seems unnecessary, and I worry about its performance |
+||It's labelled as Beta, and a bigger windows doesn't equals to better reasoning|
+||Maybe good for a major refactoring of a monolithic solution, which applies to us, but who is doing it? is it everyone?|
+|Better tools and orchestration|Copilot can also run multi-agents, and has the same tooling|
+|Ecosystem is ahead of Copilot's (Marketplace)|True. But this doesn't mean Copilot doesn't have one, and this will catch up in time, more tools doesn't equal better tools|
+||In addition, by the time we figure out our required tooling it will be tailored to us|
+|Gives more customization|Same...|
+|You would not be product locked|I would be Claude locked...|
+|I can run on GitHub|Requires config, and Copilot can do so out of the box|
+|I can run Claude on GitHub Actions|Same. It also has a remote Agent that can run in an isolated environment|
+|Claude Cowork!|Useful `IF` I was trying to do something from my phone, but I have my laptop with me all the time. Maybe for SREs?|
+|Claude.md|*-instructions.md|
+||And this is interesting as it seems like Copilot instructions is better in having more granular controls, smaller files which load when necessary, and you can have it at multiple levels of your code|
+|Rewind|Ok... you got me there|
 
+### Claude's Rewind
+
+I believe this is the only thing that I actually thought it was pretty amazing. So what's this magical feature? As per their docs:
+
+```
+Press Esc twice (Esc + Esc) or use the /rewind command to open the rewind menu. A scrollable list shows each of your prompts from the session. Select the point you want to act on, then choose an action:
+
+> Restore code and conversation: revert both code and conversation to that point
+> Restore conversation: rewind to that message while keeping current code
+> Restore code: revert file changes while keeping the conversation
+> Summarize from here: compress the conversation from this point forward into a summary, freeing context window space
+> Never mind: return to the message list without making changes
+
+After restoring the conversation or summarizing, the original prompt from the selected message is restored into the input field so you can re-send or edit it.
+```
+
+Now, does this justify one tool over the other? I honestly don't think so. But nonetheless, very very cool.
+
+### Conclusion
+
+I honestly cannot say Claude is better than Copilot, or that Claude has something that would make it better than Copilot, maybe is my naviety, and my inexperience talking in here, but as I keep working with both I haven't found a clear indicator that is able to sway me in either direction, maybe just the pricing. The more I hear from people reporting: `It does this better, or does that better` all I want to ask them is `HOW?`. Is it the Skills they are using, or maybe the `Hooks`? Then this is not really a product feat, is a customization, and in the real of both tools, the customaization at the end of the day is the same. With that said, I can only keep exploring, and I can only keep on testing until maybe I will write a part II of this article.
+
+Thanks!
+
+Luis

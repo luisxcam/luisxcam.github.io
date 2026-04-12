@@ -16,7 +16,7 @@ interface BlogPostReaderProps {
 
 const BlogPostReader = ({ post, onBack }: BlogPostReaderProps) => {
   return (
-    <div className="space-y-4 max-w-4xl">
+    <div className="space-y-4">
       <button
         onClick={onBack}
         aria-label="back to blog list"

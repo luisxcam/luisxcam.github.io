@@ -18,7 +18,7 @@ const BlogSection = ({ slug }: BlogSectionProps) => {
   }
 
   return (
-    <div className="space-y-4 max-w-4xl">
+    <div className="space-y-4">
       <TerminalWindow title="~/portfolio/blog/">
         <div className="text-xs text-muted-foreground">
           <span className="text-terminal">$</span> find blog/ -name "*.md" | sort -r

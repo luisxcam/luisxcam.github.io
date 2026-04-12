@@ -51,7 +51,7 @@ const Index = () => {
         </div>
 
         {/* Content */}
-        <div className="p-6 lg:p-10 pt-16 lg:pt-6 pb-10">
+        <div className="p-6 lg:p-10 pt-16 lg:pt-6 pb-10 lg:max-w-4xl">
           {sections[activeSection]}
         </div>
 

@@ -122,8 +122,8 @@ Well, I cracked the good ol' notebook, and I proceeded to do research. I also go
 
 So, I began comparing each other, and these were the results of my research. Please feel free to ignore my handwriting.
 
-|![Claude Code in Action Certificate](/blog/claude-code-vs-github-copilot/mynotes1.jpg)|
-|![Claude Code in Action Certificate](/blog/claude-code-vs-github-copilot/mynotes2.jpg)|
+|![My notes](/blog/claude-code-vs-github-copilot/mynotes1.jpg)|
+|![My notes cont.](/blog/claude-code-vs-github-copilot/mynotes2.jpg)|
 
 Let me provide a cleaner version, with a bit more insight.
 

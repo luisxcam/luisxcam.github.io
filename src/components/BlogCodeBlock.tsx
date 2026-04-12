@@ -18,21 +18,23 @@ const BlogCodeBlock = ({ className, children, ...props }: CodeProps) => {
   }
 
   return (
-    <div className="my-4">
+    <div className="my-4 max-w-full">
       {language && (
         <div className="text-[10px] font-mono text-muted-foreground mb-1 uppercase tracking-widest">
           // {language}
         </div>
       )}
-      <code
-        className={cn(
-          "block bg-card border-l-2 border-terminal px-4 py-3 text-xs font-mono leading-relaxed overflow-x-auto whitespace-pre",
-          className
-        )}
-        {...props}
-      >
-        {children}
-      </code>
+      <div className="overflow-x-auto max-w-full">
+        <code
+          className={cn(
+            "block bg-card border-l-2 border-terminal px-4 py-3 text-xs font-mono leading-relaxed whitespace-pre",
+            className
+          )}
+          {...props}
+        >
+          {children}
+        </code>
+      </div>
     </div>
   );
 };

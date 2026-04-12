@@ -30,11 +30,11 @@ const ContactSection = () => {
           <a
             key={item.label}
             href="#"
-            className="flex items-center gap-3 border border-border p-3 text-xs hover:border-terminal hover:bg-muted/30 transition-colors duration-75 group"
+            className="flex items-center gap-3 min-w-0 border border-border p-3 text-xs hover:border-terminal hover:bg-muted/30 transition-colors duration-75 group"
           >
             <span className="text-terminal">[{item.prefix}]</span>
             <span className="text-muted-foreground">{item.label}:</span>
-            <span className="text-foreground group-hover:text-terminal transition-colors duration-75">{item.value}</span>
+            <span className="text-foreground group-hover:text-terminal transition-colors duration-75 min-w-0 truncate">{item.value}</span>
           </a>
         ))}
       </div>

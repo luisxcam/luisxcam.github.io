@@ -29,7 +29,7 @@ const MobileNav = ({ activeSection }: MobileNavProps) => {
       </div>
       {open && (
         <div className="fixed inset-0 z-40 bg-background pt-12">
-          <nav className="p-4 space-y-1">
+          <nav className="p-4 space-y-1 pb-10">
             {items.map((item) => (
               <button
                 key={item.id}

@@ -27,7 +27,7 @@ const Index = () => {
     <div className="flex min-h-screen bg-background">
       <IDESidebar activeSection={activeSection} />
       <MobileNav activeSection={activeSection} />
-      <main className="flex-1 min-h-screen">
+      <main className="flex-1 min-h-screen min-w-0">
         {/* Tab bar */}
         <div className="border-b border-border bg-card hidden lg:flex">
           {Object.keys(sections).map((key) => (
@@ -51,7 +51,7 @@ const Index = () => {
         </div>
 
         {/* Content */}
-        <div className="p-6 lg:p-10 max-w-4xl pt-16 lg:pt-6">
+        <div className="p-6 lg:p-10 max-w-4xl pt-16 lg:pt-6 overflow-x-hidden w-full min-w-0 pb-10">
           {sections[activeSection]}
         </div>
 

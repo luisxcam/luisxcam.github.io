@@ -9,13 +9,13 @@ interface TerminalWindowProps {
 const TerminalWindow = ({ title = "~/portfolio", children, className }: TerminalWindowProps) => {
   return (
     <div className={cn("border border-border bg-card", className)}>
-      <div className="flex items-center gap-2 border-b border-border px-4 py-2">
-        <div className="flex gap-1.5">
+      <div className="flex items-center gap-2 border-b border-border px-4 py-2 min-w-0">
+        <div className="flex gap-1.5 shrink-0">
           <span className="h-3 w-3 bg-metal" />
           <span className="h-3 w-3 bg-caution" />
           <span className="h-3 w-3 bg-terminal" />
         </div>
-        <span className="ml-2 text-xs text-muted-foreground font-mono">{title}</span>
+        <span className="ml-2 text-xs text-muted-foreground font-mono truncate min-w-0 flex-1">{title}</span>
       </div>
       <div className="p-6">
         {children}

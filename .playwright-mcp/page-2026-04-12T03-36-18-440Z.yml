@@ -1,0 +1,18 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - generic [ref=e86]:
+      - generic [ref=e87]: ~/portfolio
+      - button [ref=e88] [cursor=pointer]:
+        - img [ref=e89]
+    - main [ref=e33]:
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - generic [ref=e98]: ~/portfolio/blog/
+          - generic [ref=e100]: $ find blog/ -name "*.md" | sort -r
+        - paragraph [ref=e101]: $ loading posts...
+      - generic [ref=e83]:
+        - generic [ref=e84]: UTF-8 — LF — TypeScript React
+        - generic [ref=e85]: ● connected

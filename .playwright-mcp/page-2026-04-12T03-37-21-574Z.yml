@@ -1,0 +1,56 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - generic [ref=e86]:
+      - generic [ref=e87]: ~/portfolio
+      - button [ref=e88] [cursor=pointer]:
+        - img [ref=e89]
+    - main [ref=e33]:
+      - generic [ref=e389]:
+        - generic [ref=e390]:
+          - generic [ref=e396]: ~/portfolio/projects/
+          - generic [ref=e397]:
+            - generic [ref=e398]: $ ls -la projects/
+            - generic [ref=e399]: total 4 — showing all entries
+        - generic [ref=e400]:
+          - generic [ref=e401] [cursor=pointer]:
+            - generic [ref=e402]:
+              - heading "RIFF_ENGINE" [level=3] [ref=e403]
+              - generic [ref=e404]: DEPLOYED
+            - paragraph [ref=e405]: Real-time audio processing pipeline built with Rust and WebAssembly
+            - generic [ref=e406]:
+              - generic [ref=e407]: Rust
+              - generic [ref=e408]: WASM
+              - generic [ref=e409]: WebAudio
+          - generic [ref=e410] [cursor=pointer]:
+            - generic [ref=e411]:
+              - heading "VOID_CMS" [level=3] [ref=e412]
+              - generic [ref=e413]: IN_PROGRESS
+            - paragraph [ref=e414]: Headless CMS with a terminal-based admin interface
+            - generic [ref=e415]:
+              - generic [ref=e416]: Node.js
+              - generic [ref=e417]: PostgreSQL
+              - generic [ref=e418]: React
+          - generic [ref=e419] [cursor=pointer]:
+            - generic [ref=e420]:
+              - heading "MOSH_PIT" [level=3] [ref=e421]
+              - generic [ref=e422]: DEPLOYED
+            - paragraph [ref=e423]: Real-time collaborative code editor with conflict resolution
+            - generic [ref=e424]:
+              - generic [ref=e425]: TypeScript
+              - generic [ref=e426]: CRDTs
+              - generic [ref=e427]: WebSocket
+          - generic [ref=e428] [cursor=pointer]:
+            - generic [ref=e429]:
+              - heading "BLACK_MATTER" [level=3] [ref=e430]
+              - generic [ref=e431]: ARCHIVED
+            - paragraph [ref=e432]: CLI tool for automated infrastructure provisioning
+            - generic [ref=e433]:
+              - generic [ref=e434]: Go
+              - generic [ref=e435]: Terraform
+              - generic [ref=e436]: Docker
+      - generic [ref=e83]:
+        - generic [ref=e84]: UTF-8 — LF — TypeScript React
+        - generic [ref=e85]: ● connected

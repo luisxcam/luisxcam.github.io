@@ -142,11 +142,11 @@ Let me provide a cleaner version, with a bit more insight.
 |Cowork packages agentic work into a dedicated Desktop workflow|Copilot already does agentic work across multiple surfaces, so this feels more like a UX/product wrapper difference than a capability gap|
 |Claude.md|*-instructions.md|
 |(cont.)|And this is interesting, because Copilot instructions seem better at giving you more granular controls, smaller files that load only when needed, and multiple levels where you can scope them|
-|Rewind|Ok... you got me there|
+|Rewind|Yep. Both ends|
 
-### Claude's Rewind
+### Rewind is my favorite feat so far: Claude's Rewind
 
-I believe this is the only thing that I actually thought was pretty amazing. So what's this magical feature? As per their docs:
+I actually thought this pretty amazing. So what's this magical feature? Let's read it from the Claude:
 
 > Press Esc twice (Esc + Esc) or use the `/rewind` command to open the rewind menu. A scrollable list shows each of your prompts from the session. Select the point you want to act on, then choose an action:
 >
@@ -158,11 +158,15 @@ I believe this is the only thing that I actually thought was pretty amazing. So 
 >
 > After restoring the conversation or summarizing, the original prompt from the selected message is restored into the input field so you can re-send or edit it.
 
-Now, does this justify one tool over the other? I honestly don't think so. But nonetheless, very very cool.
+Just amazing.
 
 ### Conclusion
 
-I honestly cannot say Claude is better than Copilot, or that Claude has something that would make it better than Copilot. Maybe it's my naivety and my inexperience talking here, but as I keep working with both, I haven't found a clear indicator that is able to sway me in either direction, maybe just the pricing. The more I hear from people reporting: `It does this better, or does that better`, all I want to ask them is `HOW?`. Is it the `Skills` they are using, or maybe the `Hooks`? Then this is not really a product feat, it's a customization, and in the realm of both tools, the customization at the end of the day is the same. With that said, I can only keep exploring, and I can only keep on testing until maybe I will write a part II of this article.
+I honestly cannot say Claude is better than Copilot, or that Claude has something that would make it better than Copilot. Maybe it's my naivety and my inexperience talking here, but as I keep working with both, I haven't found a clear indicator that is able to sway me in either direction, maybe just the pricing. 
+
+The more I hear from people reporting: `It does this better, or does that better`, all I want to ask them is `HOW?`. Is it the `Skills` they are using, or maybe the `Hooks`? Then this is not really a product feat, it's a customization, and in the realm of both tools, the customization at the end of the day is the same. 
+
+With that said, I can only keep exploring, and I can only keep on testing until maybe I will write a part II of this article.
 
 Thanks!
 

@@ -30,6 +30,7 @@ const ContactSection = () => {
           <a
             key={item.label}
             href="#"
+            rel="noopener noreferrer"
             className="flex items-center gap-3 min-w-0 border border-border p-3 text-xs hover:border-terminal hover:bg-muted/30 transition-colors duration-75 group"
           >
             <span className="text-terminal">[{item.prefix}]</span>
